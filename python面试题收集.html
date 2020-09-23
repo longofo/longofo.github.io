@@ -1,0 +1,1697 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+<meta name="theme-color" content="#222">
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar.jpg?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar.jpg?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="python,面试题," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Longofo's Blog" type="application/atom+xml" />
+
+
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
+  daovoice('init', {
+      app_id: "be3d97bc"
+    });
+  daovoice('update');
+  </script>
+
+
+
+<meta name="description" content="学习别人的，渐渐成为自己的   搜集一些别人的面试题,为自己的面试做些准备。以后逐渐添加面试题">
+<meta name="keywords" content="python,面试题">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python面试题收集">
+<meta property="og:url" content="http://longofo.cc/python面试题收集.html">
+<meta property="og:site_name" content="Longofo&#39;s Blog">
+<meta property="og:description" content="学习别人的，渐渐成为自己的   搜集一些别人的面试题,为自己的面试做些准备。以后逐渐添加面试题">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-07-10T01:14:13.549Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="python面试题收集">
+<meta name="twitter:description" content="学习别人的，渐渐成为自己的   搜集一些别人的面试题,为自己的面试做些准备。以后逐渐添加面试题">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://longofo.cc/python面试题收集.html"/>
+
+
+
+
+  <title>python面试题收集 | Longofo's Blog</title>
+  <style>
+  .forkme{
+    display: none;
+  }
+  @media (min-width: 768px) {
+  .forkme{
+    display: inline;
+  }
+  }
+  </style>
+  
+
+
+
+
+
+
+
+
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/love.js"></script>
+  <!-- 背景动画 -->
+  <script type="text/javascript" src="/js/src/particle.js"></script>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+  
+  
+    
+  
+  
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+    <div class="forkme">
+      <a target="_blank" href="https://github.com/longofo"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png" alt="Fork me on GitHub">
+      </a>
+    </div>
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Longofo's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">与码农的不解之缘</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-bank"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于我
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-count">
+          <a href="/count/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-eye"></i> <br />
+            
+            琅琊榜
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/python面试题收集.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">python面试题收集</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-05-01T12:45:05+08:00">
+                2018-05-01
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-07-10T09:14:13+08:00">
+                2018-07-10
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/面试题/" itemprop="url" rel="index">
+                    <span itemprop="name">面试题</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/python面试题收集.html" class="leancloud_visitors" data-flag-title="python面试题收集">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote class="blockquote-center">学习别人的，渐渐成为自己的</blockquote>
+
+<blockquote>
+<p>搜集一些别人的面试题,为自己的面试做些准备。以后逐渐添加面试题</p>
+</blockquote>
+<a id="more"></a>
+<h3 id="nginx与uwsgi是如何通信的？"><a href="#nginx与uwsgi是如何通信的？" class="headerlink" title="nginx与uwsgi是如何通信的？"></a>nginx与uwsgi是如何通信的？</h3><p>我们知道，nginx把浏览器等发过来的请求通过proxy_pass或者uwsgi_pass转发给上游的web application进行处理，然后把处理的结果发送给浏览器。uwsgi_pass命令的处理函数为ngx_http_uwsgi_handler,也就是说，当有请求到达配置uwsgi_pass的location时，会调用ngx_http_uwsgi_handler方法，而该方法是整个uwsgi事件处理的入口方法。下面来看该方法：</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">static</span> ngx_int_t ngx_http_uwsgi_handler(ngx_http_request_t *r) &#123; </span><br><span class="line">	<span class="attribute">ngx_http_upstream_t</span> *u;</span><br><span class="line">	<span class="attribute">ngx_http_uwsgi_loc_conf_t</span> *uwcf;</span><br><span class="line">	<span class="attribute">uwcf</span> = ngx_http_get_module_loc_conf(r, ngx_http_uwsgi_module);</span><br><span class="line">	<span class="attribute">u</span> = r-&gt;upstream;</span><br><span class="line">	……</span><br><span class="line">	u-&gt;create_request = ngx_http_uwsgi_create_request;//根据wsgi协议创建请求包体</span><br><span class="line">	u-&gt;process_header = ngx_http_uwsgi_process_status_line;//根据wsgi协议解析uwsgi发送来的头部</span><br><span class="line">	……</span><br><span class="line">	rc = ngx_http_read_client_request_body(r, ngx_http_upstream_init);//从浏览器读取body数据</span><br><span class="line">	…… </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="nginx与uwsgi是多线程还是多进程"><a href="#nginx与uwsgi是多线程还是多进程" class="headerlink" title="nginx与uwsgi是多线程还是多进程 ?"></a>nginx与uwsgi是多线程还是多进程 ?</h3><ul>
+<li>uwsgi是用c语言写的一个webserver，可以启动多个进程，进程里面可以启动多个线程来服务。进程分为主进程和worker进程，worker里面可以有多个线程。</li>
+<li>Nginx会按需同时运行多个进程：一个主进程(master)和几个工作进程(worker)，配置了缓存时还会有缓存加载器进程(cache loader)和缓存管理器进程(cache manager)等。Nginx主要通过“共享内存”的机制实现进程间通信。主进程以root用户身份运行，而worker、cache loader和cache manager均应以非特权用户身份运行。</li>
+<li>在工作方式上，Nginx分为单工作进程和多工作进程两种模式。在单工作进程模式下，除主进程外，还有一个工作进程，工作进程是单线程的；在多工作进程模式下，每个工作进程包含多个线程。Nginx默认为单工作进程模式。</li>
+</ul>
+<h3 id="连表查询"><a href="#连表查询" class="headerlink" title="连表查询"></a>连表查询</h3><p>假设有如下两张表：</p>
+<p>表A</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">ID</th>
+<th style="text-align:center">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">Tiim</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">Jimmy</td>
+</tr>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">John</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">Tom</td>
+</tr>
+</tbody>
+</table>
+<p>表B</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">ID</th>
+<th style="text-align:center">Hobby</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">Football</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">Basketball</td>
+</tr>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">Tennis</td>
+</tr>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">Soccer</td>
+</tr>
+</tbody>
+</table>
+<h4 id="内联结"><a href="#内联结" class="headerlink" title="内联结"></a>内联结</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> A.Name B.Hobby <span class="keyword">from</span> A, B <span class="keyword">where</span> A.id = B.id</span><br></pre></td></tr></table></figure>
+<p>这是隐式的内联结，查询的结果是：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Hobby</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tiim</td>
+<td style="text-align:center">Football</td>
+</tr>
+<tr>
+<td style="text-align:center">Jimmy</td>
+<td style="text-align:center">Basketball</td>
+</tr>
+<tr>
+<td style="text-align:center">Jimmy</td>
+<td style="text-align:center">Tennis</td>
+</tr>
+<tr>
+<td style="text-align:center">Tom</td>
+<td style="text-align:center">Soccer</td>
+</tr>
+</tbody>
+</table>
+<p>它的作用和：<br><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> A.Name,B.Hobby <span class="keyword">from</span> A <span class="keyword">INNER</span> <span class="keyword">join</span> B <span class="keyword">on</span> A.id = B.id</span><br></pre></td></tr></table></figure></p>
+<h4 id="外左联结"><a href="#外左联结" class="headerlink" title="外左联结"></a>外左联结</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> A.Name,B.Hobby <span class="keyword">from</span> A <span class="keyword">left</span> <span class="keyword">join</span> B <span class="keyword">on</span> A.id = B.id</span><br></pre></td></tr></table></figure>
+<p>这样查询得到的结果将会是保留所有A表中联结字段的记录，若无与其相对应的B表中的字段记录则留空，结果如下：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Hobby</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tiim</td>
+<td style="text-align:center">Football</td>
+</tr>
+<tr>
+<td style="text-align:center">Jimmy</td>
+<td style="text-align:center">Basketball,Tennis</td>
+</tr>
+<tr>
+<td style="text-align:center">Jhon</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">Tom</td>
+<td style="text-align:center">Soccer</td>
+</tr>
+</tbody>
+</table>
+<p>所以从上面结果看出，因为A表中的John记录的ID没有在B表中有对应ID，因此为空，但Name栏仍有John记录。</p>
+<h4 id="右外联结"><a href="#右外联结" class="headerlink" title="右外联结"></a>右外联结</h4><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">select</span> A.Name.N.Hobby <span class="keyword">from</span> A <span class="keyword">right</span> <span class="keyword">join</span> B <span class="keyword">on</span> A/<span class="keyword">id</span> = B.id</span><br></pre></td></tr></table></figure>
+<p>结果将会是：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Name</th>
+<th style="text-align:center">Hobby</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tiim</td>
+<td style="text-align:center">Football</td>
+</tr>
+<tr>
+<td style="text-align:center">Jimmy</td>
+<td style="text-align:center">Basketball</td>
+</tr>
+<tr>
+<td style="text-align:center">Jimmy</td>
+<td style="text-align:center">Tennis</td>
+</tr>
+<tr>
+<td style="text-align:center">Tom</td>
+<td style="text-align:center">Soccer</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ORM中的连表查询"><a href="#ORM中的连表查询" class="headerlink" title="ORM中的连表查询"></a>ORM中的连表查询</h3><h4 id="Django中"><a href="#Django中" class="headerlink" title="Django中"></a>Django中</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Entry.objects.filter(blog__name=<span class="string">'Beatles Blog'</span>)</span><br></pre></td></tr></table></figure>
+<h4 id="Flask中"><a href="#Flask中" class="headerlink" title="Flask中"></a>Flask中</h4><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Entry.query.join(Blog,Blog.id == Entry.blog_id).filter(Blog.name = <span class="string">'Beatles Blog'</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="写一个单例模式"><a href="#写一个单例模式" class="headerlink" title="写一个单例模式"></a>写一个单例模式</h3><ul>
+<li><p>使用继承方式:</p>
+  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Singleton</span>:</span></span><br><span class="line">    _instance = <span class="keyword">None</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__new__</span><span class="params">(cls, *args, **kwargs)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> cls._instance <span class="keyword">is</span> <span class="keyword">None</span>:</span><br><span class="line">            cls._instance = super(Singleton, cls).__new__(cls, *args, **kwargs)</span><br><span class="line">        <span class="keyword">return</span> cls._instance</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SingleSpam</span><span class="params">(Singleton)</span>:</span></span><br><span class="line">    TEST = <span class="string">'testing'</span></span><br><span class="line">s1 = SingleSpam()</span><br><span class="line">print(s1.TEST, <span class="string">'   '</span>, id(s1))</span><br><span class="line">s2 = SingleSpam()</span><br><span class="line">print(s2.TEST, <span class="string">'   '</span>, id(s2))</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用装饰器</p>
+  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> functools <span class="keyword">import</span> wraps</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">singleton</span><span class="params">(cls)</span>:</span></span><br><span class="line">    instances = &#123;&#125;</span><br><span class="line"><span class="meta">    @wraps(cls)</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">_instance</span><span class="params">(*args, **kwargs)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> cls <span class="keyword">not</span> <span class="keyword">in</span> instances:</span><br><span class="line">            instances[cls] = cls(*args, **kwargs)</span><br><span class="line">        <span class="keyword">return</span> instances[cls]</span><br><span class="line">    <span class="keyword">return</span> _instance</span><br><span class="line"><span class="meta">@singleton</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SingleSpam</span><span class="params">(object)</span>:</span></span><br><span class="line">    TEST = <span class="string">'testing'</span></span><br><span class="line">s1 = SingleSpam()</span><br><span class="line">print(s1.TEST, <span class="string">'   '</span>, id(s1))</span><br><span class="line">s2 = SingleSpam()</span><br><span class="line">print(s2.TEST, <span class="string">'   '</span>, id(s2))</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>使用元类</p>
+  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Singleton</span><span class="params">(type)</span>:</span></span><br><span class="line">    _instance = <span class="keyword">None</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">__call__</span><span class="params">(cls, *args, **kwargs)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> cls._instance <span class="keyword">is</span> <span class="keyword">None</span>:</span><br><span class="line">            cls._instance = super(Singleton, cls).__call__(*args, **kwargs)</span><br><span class="line">        <span class="keyword">return</span> cls._instance</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SingleSpam</span><span class="params">(metaclass=Singleton)</span>:</span></span><br><span class="line">    TEST = <span class="string">'testing'</span></span><br><span class="line">s1 = SingleSpam()</span><br><span class="line">print(s1.TEST, <span class="string">'   '</span>, id(s1))</span><br><span class="line">s2 = SingleSpam()</span><br><span class="line">print(s2.TEST, <span class="string">'   '</span>, id(s2))</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<h3 id="请你说出几种常见的反爬策略"><a href="#请你说出几种常见的反爬策略" class="headerlink" title="请你说出几种常见的反爬策略?"></a>请你说出几种常见的反爬策略?</h3><ul>
+<li>检查user-agent</li>
+<li>加防盗链</li>
+<li>使用验证码</li>
+<li>监控ip</li>
+<li>监控session</li>
+<li>将请求的参数加密</li>
+</ul>
+<h3 id="请说一下线程与进程的区别"><a href="#请说一下线程与进程的区别" class="headerlink" title="请说一下线程与进程的区别"></a>请说一下线程与进程的区别</h3><p>进程和线程的主要差别在于它们是不同的操作系统资源管理方式。进程有独立的地址空间，一个进程崩溃后，在保护模式下不会对其它进程产生影响，而线程只是一个进程中的不同执行路径。线程有自己的堆栈和局部变量，但线程之间没有单独的地址空间，一个线程死掉就等于整个进程死掉，所以多进程的程序要比多线程的程序健壮，但在进程切换时，耗费资源较大，效率要差一些。<strong>但对于一些要求同时进行并且又要共享某些变量的并发操作，只能用线程，不能用进程。</strong></p>
+<p><strong>1) 简而言之,一个程序至少有一个进程,一个进程至少有一个线程.</strong></p>
+<h4 id="线程的划分尺度小于进程，使得多线程程序的并发性高。"><a href="#线程的划分尺度小于进程，使得多线程程序的并发性高。" class="headerlink" title="线程的划分尺度小于进程，使得多线程程序的并发性高。"></a>线程的划分尺度小于进程，使得多线程程序的并发性高。</h4><h4 id="另外，进程在执行过程中拥有独立的内存单元，而多个线程共享内存，从而极大地提高了程序的运行效率。"><a href="#另外，进程在执行过程中拥有独立的内存单元，而多个线程共享内存，从而极大地提高了程序的运行效率。" class="headerlink" title="另外，进程在执行过程中拥有独立的内存单元，而多个线程共享内存，从而极大地提高了程序的运行效率。"></a>另外，进程在执行过程中拥有独立的内存单元，而多个线程共享内存，从而极大地提高了程序的运行效率。</h4><h4 id="线程在执行过程中与进程还是有区别的。每个独立的线程有一个程序运行的入口、顺序执行序列和程序的出口。但是线程不能够独立执行，必须依存在应用程序中，由应用程序提供多个线程执行控制。"><a href="#线程在执行过程中与进程还是有区别的。每个独立的线程有一个程序运行的入口、顺序执行序列和程序的出口。但是线程不能够独立执行，必须依存在应用程序中，由应用程序提供多个线程执行控制。" class="headerlink" title="线程在执行过程中与进程还是有区别的。每个独立的线程有一个程序运行的入口、顺序执行序列和程序的出口。但是线程不能够独立执行，必须依存在应用程序中，由应用程序提供多个线程执行控制。"></a>线程在执行过程中与进程还是有区别的。每个独立的线程有一个程序运行的入口、顺序执行序列和程序的出口。<strong>但是线程不能够独立执行，</strong>必须依存在应用程序中，由应用程序提供多个线程执行控制。</h4><h4 id="从逻辑角度来看，多线程的意义在于一个应用程序中，有多个执行部分可以同时执行。但操作系统并没有将多个线程看做多个独立的应用，来实现进程的调度和管理以及资源分配。这就是进程和线程的重要区别。"><a href="#从逻辑角度来看，多线程的意义在于一个应用程序中，有多个执行部分可以同时执行。但操作系统并没有将多个线程看做多个独立的应用，来实现进程的调度和管理以及资源分配。这就是进程和线程的重要区别。" class="headerlink" title="从逻辑角度来看，多线程的意义在于一个应用程序中，有多个执行部分可以同时执行。但操作系统并没有将多个线程看做多个独立的应用，来实现进程的调度和管理以及资源分配。这就是进程和线程的重要区别。"></a>从逻辑角度来看，多线程的意义在于一个应用程序中，有多个执行部分可以同时执行。但操作系统并没有将多个线程看做多个独立的应用，来实现进程的调度和管理以及资源分配。<strong>这就是进程和线程的重要区别。</strong></h4><h3 id="下面的程序-会是什么情况？答案会报参数错误。"><a href="#下面的程序-会是什么情况？答案会报参数错误。" class="headerlink" title="下面的程序 会是什么情况？答案会报参数错误。"></a>下面的程序 会是什么情况？答案会报参数错误。</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span><span class="params">(object)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span><span class="params">(self,a)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> a</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">B</span><span class="params">(A)</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">run</span><span class="params">(self,a,b)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> b</span><br><span class="line"></span><br><span class="line">B().run(<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
+<p>因为B重写了run方法，所以run应该有两个参数</p>
+<h3 id="ORM常用筛选条件"><a href="#ORM常用筛选条件" class="headerlink" title="ORM常用筛选条件"></a>ORM常用筛选条件</h3><h4 id="Django"><a href="#Django" class="headerlink" title="Django"></a>Django</h4><h5 id="大于、大于等于"><a href="#大于、大于等于" class="headerlink" title="大于、大于等于"></a>大于、大于等于</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">__gt  大于</span><br><span class="line">__gte  大于等于</span><br><span class="line"></span><br><span class="line">User.objects.filter(age__gt=<span class="number">10</span>)    // 查询年龄大于<span class="number">10</span>岁的用户</span><br><span class="line">User.objects.filter(age__gte=<span class="number">10</span>)  // 查询年龄大于等于<span class="number">10</span>岁的用户</span><br></pre></td></tr></table></figure>
+<h5 id="小于、小于等于"><a href="#小于、小于等于" class="headerlink" title="小于、小于等于"></a>小于、小于等于</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">__lt  小于</span><br><span class="line">__lte 小于等于</span><br><span class="line"></span><br><span class="line">User.objects.filter(age__lt=<span class="number">10</span>)     // 查询年龄小于<span class="number">10</span>岁的用户</span><br><span class="line">User.objects.filter(age__lte=<span class="number">10</span>)   // 查询年龄小于等于<span class="number">10</span>岁的用户</span><br></pre></td></tr></table></figure>
+<h5 id="in"><a href="#in" class="headerlink" title="in"></a>in</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">__in</span><br><span class="line">查询年龄在某一范围的用户</span><br><span class="line">User.objects.filter(age__in=[<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>])</span><br></pre></td></tr></table></figure>
+<h5 id="like"><a href="#like" class="headerlink" title="like"></a>like</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">__exact        精确等于 like <span class="string">'aaa'</span></span><br><span class="line">__iexact       精确等于 忽略大小写 ilike <span class="string">'aaa'</span></span><br><span class="line">__contains     包含 like <span class="string">'%aaa%'</span></span><br><span class="line">__icontains    包含 忽略大小写 ilike <span class="string">'%aaa%'</span>，但是对于sqlite来说，contains的作用效果等同于icontains。</span><br></pre></td></tr></table></figure>
+<h5 id="is-null-is-not-null"><a href="#is-null-is-not-null" class="headerlink" title="is null / is not null"></a>is null / is not null</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">__isnull  判空</span><br><span class="line"></span><br><span class="line">User.objects.filter(username__isnull=<span class="keyword">True</span>)    // 查询用户名为空的用户</span><br><span class="line">User.objects.filter(username__isnull=<span class="keyword">False</span>)  // 查询用户名不为空的用户</span><br></pre></td></tr></table></figure>
+<h5 id="不等于-不包含于"><a href="#不等于-不包含于" class="headerlink" title="不等于/不包含于"></a>不等于/不包含于</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">User.objects.filter().excute(age=<span class="number">10</span>)    // 查询年龄不为<span class="number">10</span>的用户</span><br><span class="line">User.objects.filter().excute(age__in=[<span class="number">10</span>, <span class="number">20</span>])  // 查询年龄不为在 [<span class="number">10</span>, <span class="number">20</span>] 的用户</span><br></pre></td></tr></table></figure>
+<h4 id="Flask"><a href="#Flask" class="headerlink" title="Flask"></a>Flask</h4><h5 id="大于、大于等于-1"><a href="#大于、大于等于-1" class="headerlink" title="大于、大于等于"></a>大于、大于等于</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">User.query.filter(User.age &gt; <span class="number">10</span>)    // 查询年龄大于<span class="number">10</span>岁的用户</span><br><span class="line">User.query.filter(User.age &gt;= <span class="number">10</span>)  // 查询年龄大于等于<span class="number">10</span>岁的用户</span><br></pre></td></tr></table></figure>
+<h5 id="小于、小于等于-1"><a href="#小于、小于等于-1" class="headerlink" title="小于、小于等于"></a>小于、小于等于</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">User.query.filter(User.age &lt; <span class="number">10</span>)     // 查询年龄小于<span class="number">10</span>岁的用户</span><br><span class="line">User.query.filter(User.age &lt;= <span class="number">10</span>)   // 查询年龄小于等于<span class="number">10</span>岁的用户</span><br></pre></td></tr></table></figure>
+<h5 id="in-1"><a href="#in-1" class="headerlink" title="in"></a>in</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">查询年龄在某一范围的用户</span><br><span class="line">User.query.filter(User.age.in_([<span class="number">10</span>, <span class="number">20</span>, <span class="number">30</span>]))</span><br></pre></td></tr></table></figure>
+<h5 id="like-1"><a href="#like-1" class="headerlink" title="like"></a>like</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">User.query.filter(User.name.like(<span class="string">'%wu%'</span>))</span><br></pre></td></tr></table></figure>
+<h5 id="is-null-is-not-null-1"><a href="#is-null-is-not-null-1" class="headerlink" title="is null / is not null"></a>is null / is not null</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">User.query.filter(User.username = <span class="keyword">None</span> )    // 查询用户名为空的用户</span><br><span class="line">User.query.filter(User.username != <span class="keyword">None</span> )  // 查询用户名不为空的用户</span><br></pre></td></tr></table></figure>
+<h5 id="不等于-不包含于-1"><a href="#不等于-不包含于-1" class="headerlink" title="不等于/不包含于"></a>不等于/不包含于</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">User.query.filter(~(User.age=<span class="number">10</span>))    // 查询年龄不为<span class="number">10</span>的用户</span><br><span class="line">User.objects.filter(~(User.age.in_([<span class="number">10</span>,<span class="number">20</span>])))  // 查询年龄不为在 [<span class="number">10</span>, <span class="number">20</span>] 的用户</span><br></pre></td></tr></table></figure>
+<h3 id="put与post的区别"><a href="#put与post的区别" class="headerlink" title="put与post的区别?"></a>put与post的区别?</h3><p>POST<br>用于提交请求，可以更新或者创建资源，是非幂等的<br>举个例子，在我们的支付系统中，一个api的功能是创建收款金额二维码，它和金额相关，每个用户可以有多个二维码，如果连续调用则会创建新的二维码，这个时候就用POST</p>
+<hr>
+<p>PUT<br>用于向指定的URI传送更新资源，是幂等的<br>还是那个例子，用户的账户二维码只和用户关联，而且是一一对应的关系，此时这个api就可以用PUT，因为每次调用它，都将刷新用户账户二维码</p>
+<h3 id="http有几种方式"><a href="#http有几种方式" class="headerlink" title="http有几种方式?"></a>http有几种方式?</h3><p>OPTIONS：返回服务器针对特定资源所支持的HTTP请求方法。也可以利用向Web服务器发送的请求来测试服务器的功能性。</p>
+<p>HEAD：向服务器索要与GET请求相一致的响应，只不过响应体将不会被返回。这一方法可以在不必传输整个响应内容的情况下，就可以获取包含在响应消息头中的元信息。</p>
+<p>GET：向特定的资源发出请求。</p>
+<p>POST：向指定资源提交数据进行处理请求（例如提交表单或者上传文件）。数据被包含在请求体中。POST请求可能会导致新的资源的创建和/或已有资源的修改。</p>
+<p>PUT：向指定资源位置上传其最新内容。</p>
+<p>DELETE：请求服务器删除Request-URI所标识的资源。</p>
+<p>TRACE：回显服务器收到的请求，主要用于测试或诊断。</p>
+<p>CONNECT：HTTP/1.1协议中预留给能够将连接改为管道方式的代理服务器。</p>
+<h3 id="解释下面linux命令的含义"><a href="#解释下面linux命令的含义" class="headerlink" title="解释下面linux命令的含义"></a>解释下面linux命令的含义</h3><p><em>cat:</em> 常用来显示文件内容，或者将几个文件连接起来显示，或者从标准输入读取内容并显示，它常与重定向符号配合使用。<br><em>rsync:</em> 更快更好地远程拷贝文件<br><em>rm:</em> 删除文件或目录<br><em>grep:</em> 在一个或多个文件中搜索字符串模板<br><em>tcpdump:</em> 是一个运行在命令行下的抓包工具<br><em>strace:</em> 常用来跟踪进程执行时的系统调用和所接收的信号<br><em>chmod:</em> 修改文件权限<br><em>less:</em> 对文件或其它输出进行分页显示的工具，可向前向后翻页，而more只能向后翻页<br><em>netstat:</em> 用于列出系统上所有的网络套接字连接情况，包括 tcp, udp 以及 unix 套接字，另外它还能列出处于监听状态（即等待接入请求）的套接字<br><em>top:</em> 实时显示系统中各个进程的资源占用状况<br><em>telnet:</em> 远程登录<br><em>scp:</em> linux系统下基于ssh登陆进行安全的远程文件拷贝命令</p>
+<h3 id="用最简洁的代码，将元素类型为int的list中大于100的元素输出到另一个list-并将后一个list中的元素从大到小排序"><a href="#用最简洁的代码，将元素类型为int的list中大于100的元素输出到另一个list-并将后一个list中的元素从大到小排序" class="headerlink" title="用最简洁的代码，将元素类型为int的list中大于100的元素输出到另一个list,并将后一个list中的元素从大到小排序"></a>用最简洁的代码，将元素类型为int的list中大于100的元素输出到另一个list,并将后一个list中的元素从大到小排序</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"></span><br><span class="line">lstA = random.sample(range(<span class="number">1000</span>), <span class="number">100</span>)</span><br><span class="line">lstB = list(filter(<span class="keyword">lambda</span> x: x &gt; <span class="number">100</span>, lstA))</span><br><span class="line">lstB.sort(reverse=<span class="keyword">True</span>)</span><br><span class="line">print(lstB)</span><br></pre></td></tr></table></figure>
+<h3 id="给两个排好序的数组，找出重复的元素"><a href="#给两个排好序的数组，找出重复的元素" class="headerlink" title="给两个排好序的数组，找出重复的元素"></a>给两个排好序的数组，找出重复的元素</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> random</span><br><span class="line"></span><br><span class="line">lstA = [<span class="number">1</span>,<span class="number">5</span>,<span class="number">8</span>,<span class="number">14</span>,<span class="number">16</span>,<span class="number">25</span>,<span class="number">28</span>,<span class="number">39</span>]<span class="comment"># random.sample(range(1 &lt;&lt; 15), 1011)</span></span><br><span class="line">lstB = [<span class="number">2</span>,<span class="number">3</span>,<span class="number">6</span>,<span class="number">8</span>,<span class="number">12</span>,<span class="number">13</span>,<span class="number">16</span>,<span class="number">21</span>,<span class="number">25</span>,<span class="number">28</span>]<span class="comment"># random.sample(range(1 &lt;&lt; 15), 2030)</span></span><br><span class="line"><span class="comment"># lstA.sort()</span></span><br><span class="line"><span class="comment"># lstB.sort()</span></span><br><span class="line"></span><br><span class="line">lenA = len(lstA)</span><br><span class="line">lenB = len(lstB)</span><br><span class="line">common = []</span><br><span class="line">i, j = <span class="number">0</span>, <span class="number">0</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> i &lt; lenA <span class="keyword">and</span> j &lt; lenB:</span><br><span class="line">    <span class="keyword">if</span> lstA[i] &lt; lstB[j]:</span><br><span class="line">        i += <span class="number">1</span></span><br><span class="line">    <span class="keyword">elif</span> lstA[i] &gt; lstB[j]:</span><br><span class="line">        j += <span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        common.append(lstA[i])</span><br><span class="line">        i += <span class="number">1</span></span><br><span class="line">        j += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">print(common)</span><br></pre></td></tr></table></figure>
+<h3 id="给一个字符串，输出它的所有排列"><a href="#给一个字符串，输出它的所有排列" class="headerlink" title="给一个字符串，输出它的所有排列"></a>给一个字符串，输出它的所有排列</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">arrangement</span><span class="params">(lst, length, index=<span class="number">0</span>)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> index == length - <span class="number">1</span>:</span><br><span class="line">        print(<span class="string">''</span>.join(lst))</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    <span class="keyword">for</span> pos <span class="keyword">in</span> range(index, length):</span><br><span class="line">        lst[pos], lst[index] = lst[index], lst[pos]</span><br><span class="line">        arrangement(lst, length, index + <span class="number">1</span>)</span><br><span class="line">        lst[pos], lst[index] = lst[index], lst[pos]</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">start_arrangement</span><span class="params">(iterable)</span>:</span></span><br><span class="line">    lst = list(iterable)</span><br><span class="line">    arrangement(lst, len(lst))</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">start_arrangement(<span class="string">'abcd'</span>)</span><br></pre></td></tr></table></figure>
+<h3 id="Python基础题"><a href="#Python基础题" class="headerlink" title="Python基础题"></a>Python基础题</h3><p>写了一些题目。但是deploy时hexo报错,网上说是hexo模板的问题,有些特殊符号没正确处理。但是尝试了没解决<br>…后面找到原因再补充…</p>
+<h3 id="Python进阶题"><a href="#Python进阶题" class="headerlink" title="Python进阶题"></a>Python进阶题</h3>
+      
+      <div>
+      
+      <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script type="text/javascript" src="http://jslibs.wuxubj.cn/sweetalert_mini/jquery-1.7.1.min.js"></script>
+  <script src="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://jslibs.wuxubj.cn/sweetalert_mini/sweetalert.mini.css">
+  <p><span>本文标题:</span><a href="/python面试题收集.html">python面试题收集</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 Longofo 的个人博客">Longofo</a></p>
+  <p><span>发布时间:</span>2018年05月01日 - 12:05</p>
+  <p><span>最后更新:</span>2018年07月10日 - 09:07</p>
+  <p><span>原始链接:</span><a href="/python面试题收集.html" title="python面试题收集">http://longofo.cc/python面试题收集.html</a>
+    <span class="copy-path"  title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="http://longofo.cc/python面试题收集.html"  aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+    clipboard.on('success', $(function(){
+      $(".fa-clipboard").click(function(){
+        swal({   
+          title: "",   
+          text: '复制成功',   
+          html: false,
+          timer: 500,   
+          showConfirmButton: false
+        });
+      });
+    }));  
+</script>
+
+      
+    </div>
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>请我吃包辣条也好啊！！！</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="Longofo 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="Longofo 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+          <a href="/tags/python/" rel="tag"><i class="menu-item-icon fa fa-fw fa-tags"></i> python</a>
+          
+          <a href="/tags/面试题/" rel="tag"><i class="menu-item-icon fa fa-fw fa-tags"></i> 面试题</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/用python操作redis及redis的一些应用场景.html" rel="next" title="用python操作redis及redis的一些应用场景">
+                <i class="fa fa-chevron-left"></i> 用python操作redis及redis的一些应用场景
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/python3调试(debug)--pdb.html" rel="prev" title="python3调试(debug)--pdb">
+                python3调试(debug)--pdb <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        <!--MOB SHARE BEGIN-->
+<div class="-hoofoo-share-title">分享到：</div>
+<div class="-hoofoo-share-buttons">
+    <div class="-mob-share-weibo -hoofoo-share-weibo -hoofoo-share-ui-button"><i class="fa fa-weibo" aria-hidden="true"></i></div>
+    <div class="-mob-share-weixin -hoofoo-share-weixin -hoofoo-share-ui-button"><i class="fa fa-weixin" aria-hidden="true"></i></div>
+    <div class="-mob-share-qq -hoofoo-share-qq -hoofoo-share-ui-button"><i class="fa fa-qq" aria-hidden="true"></i></div>
+    <div class="-mob-share-twitter -hoofoo-share-twitter -hoofoo-share-ui-button"><i class="fa fa-twitter" aria-hidden="true"></i></div>
+    <div class="-hoofoo-share-more -hoofoo-share-ui-button -mob-share-open"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></div>
+</div>
+<div class="-mob-share-ui" style="display: none">
+    <ul class="-mob-share-list">
+        <li class="-mob-share-weibo"><p>新浪微博</p></li>
+        <li class="-mob-share-weixin"><p>微信</p></li>
+        <li class="-mob-share-qzone"><p>QQ空间</p></li>
+        <li class="-mob-share-qq"><p>QQ好友</p></li>
+        <li class="-mob-share-tencentweibo"><p>腾讯微博</p></li>
+        <li class="-mob-share-renren"><p>人人网</p></li>
+        <li class="-mob-share-kaixin"><p>开心网</p></li>
+        <li class="-mob-share-douban"><p>豆瓣</p></li>
+        <li class="-mob-share-youdao"><p>有道云笔记</p></li>
+        <li class="-mob-share-mingdao"><p>明道</p></li>
+        <li class="-mob-share-pengyou"><p>朋友网</p></li>
+        <li class="-mob-share-facebook"><p>Facebook</p></li>
+        <li class="-mob-share-twitter"><p>Twitter</p></li>
+        <li class="-mob-share-pocket"><p>Pocket</p></li>
+        <li class="-mob-share-google"><p>Google+</p></li>
+        <li class="-mob-share-tumblr"><p>Tumblr</p></li>
+        <li class="-mob-share-instapaper"><p>Instapaper</p></li>
+        <li class="-mob-share-linkedin"><p>Linkedin</p></li>
+    </ul>
+    <div class="-mob-share-close">取消</div>
+</div>
+<div class="-mob-share-ui-bg"></div>
+<script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey=249ab3deec96d"></script>
+<!--MOB SHARE END-->
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNDc1OS8xMTI5Ng=="></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="Longofo" />
+            
+              <p class="site-author-name" itemprop="name">Longofo</p>
+              <p class="site-description motion-element" itemprop="description">小白 | 码渣 | 仰望 | 大佬</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">29</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">26</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/longofo" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+          
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-globe"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://xiaorui.cc/" title="小瑞" target="_blank">小瑞</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://cuiqingcai.com" title="崔庆才(爬虫)" target="_blank">崔庆才(爬虫)</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.leavesongs.com/" title="p牛(安全)" target="_blank">p牛(安全)</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          <div id="music163player">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1319073956&auto=0&height=66"></iframe>
+</div>
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#nginx与uwsgi是如何通信的？"><span class="nav-number">1.</span> <span class="nav-text">nginx与uwsgi是如何通信的？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#nginx与uwsgi是多线程还是多进程"><span class="nav-number">2.</span> <span class="nav-text">nginx与uwsgi是多线程还是多进程 ?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#连表查询"><span class="nav-number">3.</span> <span class="nav-text">连表查询</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#内联结"><span class="nav-number">3.1.</span> <span class="nav-text">内联结</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#外左联结"><span class="nav-number">3.2.</span> <span class="nav-text">外左联结</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#右外联结"><span class="nav-number">3.3.</span> <span class="nav-text">右外联结</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ORM中的连表查询"><span class="nav-number">4.</span> <span class="nav-text">ORM中的连表查询</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Django中"><span class="nav-number">4.1.</span> <span class="nav-text">Django中</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Flask中"><span class="nav-number">4.2.</span> <span class="nav-text">Flask中</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#写一个单例模式"><span class="nav-number">5.</span> <span class="nav-text">写一个单例模式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#请你说出几种常见的反爬策略"><span class="nav-number">6.</span> <span class="nav-text">请你说出几种常见的反爬策略?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#请说一下线程与进程的区别"><span class="nav-number">7.</span> <span class="nav-text">请说一下线程与进程的区别</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#线程的划分尺度小于进程，使得多线程程序的并发性高。"><span class="nav-number">7.1.</span> <span class="nav-text">线程的划分尺度小于进程，使得多线程程序的并发性高。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#另外，进程在执行过程中拥有独立的内存单元，而多个线程共享内存，从而极大地提高了程序的运行效率。"><span class="nav-number">7.2.</span> <span class="nav-text">另外，进程在执行过程中拥有独立的内存单元，而多个线程共享内存，从而极大地提高了程序的运行效率。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#线程在执行过程中与进程还是有区别的。每个独立的线程有一个程序运行的入口、顺序执行序列和程序的出口。但是线程不能够独立执行，必须依存在应用程序中，由应用程序提供多个线程执行控制。"><span class="nav-number">7.3.</span> <span class="nav-text">线程在执行过程中与进程还是有区别的。每个独立的线程有一个程序运行的入口、顺序执行序列和程序的出口。但是线程不能够独立执行，必须依存在应用程序中，由应用程序提供多个线程执行控制。</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#从逻辑角度来看，多线程的意义在于一个应用程序中，有多个执行部分可以同时执行。但操作系统并没有将多个线程看做多个独立的应用，来实现进程的调度和管理以及资源分配。这就是进程和线程的重要区别。"><span class="nav-number">7.4.</span> <span class="nav-text">从逻辑角度来看，多线程的意义在于一个应用程序中，有多个执行部分可以同时执行。但操作系统并没有将多个线程看做多个独立的应用，来实现进程的调度和管理以及资源分配。这就是进程和线程的重要区别。</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#下面的程序-会是什么情况？答案会报参数错误。"><span class="nav-number">8.</span> <span class="nav-text">下面的程序 会是什么情况？答案会报参数错误。</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ORM常用筛选条件"><span class="nav-number">9.</span> <span class="nav-text">ORM常用筛选条件</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Django"><span class="nav-number">9.1.</span> <span class="nav-text">Django</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#大于、大于等于"><span class="nav-number">9.1.1.</span> <span class="nav-text">大于、大于等于</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#小于、小于等于"><span class="nav-number">9.1.2.</span> <span class="nav-text">小于、小于等于</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#in"><span class="nav-number">9.1.3.</span> <span class="nav-text">in</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#like"><span class="nav-number">9.1.4.</span> <span class="nav-text">like</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#is-null-is-not-null"><span class="nav-number">9.1.5.</span> <span class="nav-text">is null / is not null</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#不等于-不包含于"><span class="nav-number">9.1.6.</span> <span class="nav-text">不等于/不包含于</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Flask"><span class="nav-number">9.2.</span> <span class="nav-text">Flask</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#大于、大于等于-1"><span class="nav-number">9.2.1.</span> <span class="nav-text">大于、大于等于</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#小于、小于等于-1"><span class="nav-number">9.2.2.</span> <span class="nav-text">小于、小于等于</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#in-1"><span class="nav-number">9.2.3.</span> <span class="nav-text">in</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#like-1"><span class="nav-number">9.2.4.</span> <span class="nav-text">like</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#is-null-is-not-null-1"><span class="nav-number">9.2.5.</span> <span class="nav-text">is null / is not null</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#不等于-不包含于-1"><span class="nav-number">9.2.6.</span> <span class="nav-text">不等于/不包含于</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#put与post的区别"><span class="nav-number">10.</span> <span class="nav-text">put与post的区别?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#http有几种方式"><span class="nav-number">11.</span> <span class="nav-text">http有几种方式?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#解释下面linux命令的含义"><span class="nav-number">12.</span> <span class="nav-text">解释下面linux命令的含义</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#用最简洁的代码，将元素类型为int的list中大于100的元素输出到另一个list-并将后一个list中的元素从大到小排序"><span class="nav-number">13.</span> <span class="nav-text">用最简洁的代码，将元素类型为int的list中大于100的元素输出到另一个list,并将后一个list中的元素从大到小排序</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#给两个排好序的数组，找出重复的元素"><span class="nav-number">14.</span> <span class="nav-text">给两个排好序的数组，找出重复的元素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#给一个字符串，输出它的所有排列"><span class="nav-number">15.</span> <span class="nav-text">给一个字符串，输出它的所有排列</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Python基础题"><span class="nav-number">16.</span> <span class="nav-text">Python基础题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Python进阶题"><span class="nav-number">17.</span> <span class="nav-text">Python进阶题</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Longofo</span>
+
+  
+</div>
+
+
+  <!--<div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>-->
+
+
+
+  <span class="post-meta-divider"></span>
+
+
+
+  <!--<div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>-->
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+  
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("cJGhXiQO1kKYSz7zJLlwMWAA-gzGzoHsz", "L7k9LkIHLSyD7px5x6J8JTnz");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+<script type="text/javascript">
+    //微信二维码点击背景关闭
+    $('body').delegate('.-mob-share-weixin-qrcode-bg','click', function(){
+         $(".-mob-share-weixin-qrcode-close").trigger("click");
+    }); 
+</script>
+
+</body>
+</html>

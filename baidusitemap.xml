@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://longofo.cc/WebSphere%20XXE%20%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90(CVE-2020-4643).html</loc>
+    <lastmod>2020-09-23T11:51:10.528Z</lastmod>
+    <data>
+        <display>
+        <title>WebSphere XXE 漏洞分析(CVE-2020-4643)</title>
+        <pubTime>2020-09-23T11:45:39.000Z</pubTime>
+        
+        <tag>漏洞</tag>
+         
+         
+           
+             
+              <breadCrumb title="漏洞" url="http://longofo.cc/categories/%E6%BC%8F%E6%B4%9E/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/%E4%BD%BF%E7%94%A8%E7%BC%93%E5%AD%98%E4%BC%98%E5%8C%96%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91.html</loc>
+    <lastmod>2020-08-03T10:31:25.674Z</lastmod>
+    <data>
+        <display>
+        <title>使用缓存优化斐波那契</title>
+        <pubTime>2018-06-15T12:37:24.000Z</pubTime>
+        
+        <tag>算法</tag>
+         
+        <tag>斐波那契数列</tag>
+         
+         
+           
+             
+              <breadCrumb title="算法" url="http://longofo.cc/categories/%E7%AE%97%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/Websphere%20IIOP%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E(CVE-2020-4450)%E5%88%86%E6%9E%90.html</loc>
+    <lastmod>2020-08-03T10:31:23.194Z</lastmod>
+    <data>
+        <display>
+        <title>Websphere IIOP远程代码执行漏洞(CVE-2020-4450)分析</title>
+        <pubTime>2020-07-28T06:17:32.000Z</pubTime>
+        
+        <tag>漏洞</tag>
+         
+         
+           
+             
+              <breadCrumb title="漏洞" url="http://longofo.cc/categories/%E6%BC%8F%E6%B4%9E/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/%E7%94%A8python%E6%93%8D%E4%BD%9Credis%E5%8F%8Aredis%E7%9A%84%E4%B8%80%E4%BA%9B%E5%BA%94%E7%94%A8%E5%9C%BA%E6%99%AF.html</loc>
+    <lastmod>2020-07-30T13:31:28.271Z</lastmod>
+    <data>
+        <display>
+        <title>用python操作redis及redis的一些应用场景</title>
+        <pubTime>2018-04-30T07:06:43.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>redis</tag>
+         
+         
+           
+             
+              <breadCrumb title="redis" url="http://longofo.cc/categories/redis/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/%E4%BD%BF%E7%94%A8docker%E6%90%AD%E5%BB%BAmongodb%E5%89%AF%E6%9C%AC%E9%9B%86.html</loc>
+    <lastmod>2020-07-30T13:30:45.503Z</lastmod>
+    <data>
+        <display>
+        <title>使用docker搭建mongodb副本集</title>
+        <pubTime>2018-03-31T13:57:42.000Z</pubTime>
+        
+        <tag>mongodb</tag>
+         
+         
+           
+             
+              <breadCrumb title="数据库" url="http://longofo.cc/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/%E5%89%AA%E6%A0%BC%E5%AD%90%20%E7%AE%80%E5%8D%95%E7%9A%84DFS.html</loc>
+    <lastmod>2020-07-30T13:30:06.478Z</lastmod>
+    <data>
+        <display>
+        <title>剪格子 简单的DFS</title>
+        <pubTime>2018-03-31T03:55:20.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>算法</tag>
+         
+        <tag>c++</tag>
+         
+         
+           
+             
+              <breadCrumb title="算法" url="http://longofo.cc/categories/%E7%AE%97%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/python%E5%AE%9E%E7%8E%B0%E5%85%A8%E6%8E%92%E5%88%97.html</loc>
+    <lastmod>2020-07-30T13:29:35.231Z</lastmod>
+    <data>
+        <display>
+        <title>python实现全排列</title>
+        <pubTime>2018-04-03T14:25:31.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>算法</tag>
+         
+         
+           
+             
+              <breadCrumb title="算法" url="http://longofo.cc/categories/%E7%AE%97%E6%B3%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/sublime%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93python%E7%8E%AF%E5%A2%83.html</loc>
+    <lastmod>2020-07-30T13:28:26.278Z</lastmod>
+    <data>
+        <display>
+        <title>sublime搭建简易python环境</title>
+        <pubTime>2018-03-19T16:09:26.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>搭建</tag>
+         
+        <tag>sublime</tag>
+         
+         
+           
+             
+              <breadCrumb title="搭建" url="http://longofo.cc/categories/%E6%90%AD%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/WebLogic%20CVE-2019-2647%E3%80%81CVE-2019-2648%E3%80%81CVE-2019-2649%E3%80%81CVE-2019-2650%20XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90.html</loc>
+    <lastmod>2020-07-30T02:28:37.781Z</lastmod>
+    <data>
+        <display>
+        <title>WebLogic CVE-2019-2647、CVE-2019-2648、CVE-2019-2649、CVE-2019-2650 XXE漏洞分析</title>
+        <pubTime>2019-05-13T06:37:56.000Z</pubTime>
+        
+        <tag>漏洞</tag>
+         
+        <tag>代码审计</tag>
+         
+         
+           
+             
+              <breadCrumb title="漏洞" url="http://longofo.cc/categories/%E6%BC%8F%E6%B4%9E/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/F5%20BIG-IP%20hsqldb%E8%B8%A9%E5%9D%91%E5%88%86%E6%9E%90(CVE-2020-5902).html</loc>
+    <lastmod>2020-07-28T06:20:10.171Z</lastmod>
+    <data>
+        <display>
+        <title>F5 BIG-IP hsqldb踩坑分析(CVE-2020-5902)</title>
+        <pubTime>2020-07-10T08:44:37.000Z</pubTime>
+        
+        <tag>漏洞</tag>
+         
+        <tag>代码审计</tag>
+         
+         
+           
+             
+              <breadCrumb title="漏洞" url="http://longofo.cc/categories/%E6%BC%8F%E6%B4%9E/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/Java%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%B7%A5%E5%85%B7gadgetinspector%E5%8E%9F%E7%90%86%E5%88%9D%E7%AA%A5.html</loc>
+    <lastmod>2019-11-28T07:50:27.690Z</lastmod>
+    <data>
+        <display>
+        <title>Java反序列化工具gadgetinspector原理初窥</title>
+        <pubTime>2019-09-21T00:39:38.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://longofo.cc/Phpwind9-GET%E5%9E%8BCSRF%E4%BB%BB%E6%84%8F%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0%E4%B8%8E%E5%88%86%E6%9E%90.html</loc>
+    <lastmod>2019-03-08T06:19:30.126Z</lastmod>
+    <data>
+        <display>
+        <title>Phpwind9-GET型CSRF任意代码执行漏洞复现与分析</title>
+        <pubTime>2019-03-08T01:08:04.000Z</pubTime>
+        
+        <tag>漏洞</tag>
+         
+        <tag>代码审计</tag>
+         
+         
+           
+             
+              <breadCrumb title="漏洞" url="http://longofo.cc/categories/%E6%BC%8F%E6%B4%9E/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/wordpress-5.0-rce-%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0(%E4%BB%8E%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%88%B0%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C).html</loc>
+    <lastmod>2019-03-08T01:07:52.341Z</lastmod>
+    <data>
+        <display>
+        <title>wordpress-5.0-rce-漏洞复现(从环境搭建到代码执行)</title>
+        <pubTime>2019-03-03T05:27:39.000Z</pubTime>
+        
+        <tag>漏洞</tag>
+         
+        <tag>代码审计</tag>
+         
+         
+           
+             
+              <breadCrumb title="漏洞" url="http://longofo.cc/categories/%E6%BC%8F%E6%B4%9E/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/requests%20redirect%20bug.html</loc>
+    <lastmod>2019-01-06T07:00:13.405Z</lastmod>
+    <data>
+        <display>
+        <title>requests redirect bug</title>
+        <pubTime>2019-01-06T06:25:25.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/xxe%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8%E6%80%BB%E7%BB%93.html</loc>
+    <lastmod>2018-11-17T14:23:55.780Z</lastmod>
+    <data>
+        <display>
+        <title>xxe漏洞利用总结</title>
+        <pubTime>2018-11-07T08:46:44.000Z</pubTime>
+        
+        <tag>xxe</tag>
+         
+         
+           
+             
+              <breadCrumb title="安全" url="http://longofo.cc/categories/%E5%AE%89%E5%85%A8/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/Vim%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%80%BB%E7%BB%93--%E7%BB%8F%E5%B8%B8%E7%BF%BB%E7%9C%8B,%E5%B0%B1%E8%83%BD%E7%86%9F%E7%BB%83%E4%BD%BF%E7%94%A8.html</loc>
+    <lastmod>2018-11-07T10:23:25.085Z</lastmod>
+    <data>
+        <display>
+        <title>Vim常用命令总结--经常翻看,就能熟练使用</title>
+        <pubTime>2018-05-20T02:49:09.000Z</pubTime>
+        
+        <tag>vim</tag>
+         
+         
+           
+             
+              <breadCrumb title="vim" url="http://longofo.cc/categories/vim/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/frp%E5%AE%9E%E7%8E%B0%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F-%E5%86%85%E7%BD%91kali%E6%8E%A5%E6%94%B6%E5%8F%8D%E5%BC%B9shell.html</loc>
+    <lastmod>2018-09-08T11:16:14.400Z</lastmod>
+    <data>
+        <display>
+        <title>frp实现内网穿透-内网kali接收反弹shell</title>
+        <pubTime>2018-09-08T09:18:00.000Z</pubTime>
+        
+        <tag>内网穿透</tag>
+         
+         
+           
+             
+              <breadCrumb title="渗透测试" url="http://longofo.cc/categories/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/python%E5%AE%9E%E7%8E%B0%E5%85%AB%E5%A4%A7%E6%8E%92%E5%BA%8F.html</loc>
+    <lastmod>2018-07-11T03:09:51.669Z</lastmod>
+    <data>
+        <display>
+        <title>python实现八大排序</title>
+        <pubTime>2018-07-09T11:49:52.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>算法</tag>
+         
+         
+           
+             
+              <breadCrumb title="算法" url="http://longofo.cc/categories/%E7%AE%97%E6%B3%95/"/>
+          
+             
+              <breadCrumb title="python" url="http://longofo.cc/categories/%E7%AE%97%E6%B3%95/python/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/python%E9%9D%A2%E8%AF%95%E9%A2%98%E6%94%B6%E9%9B%86.html</loc>
+    <lastmod>2018-07-10T01:14:13.549Z</lastmod>
+    <data>
+        <display>
+        <title>python面试题收集</title>
+        <pubTime>2018-05-01T04:45:05.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>面试题</tag>
+         
+         
+           
+             
+              <breadCrumb title="面试题" url="http://longofo.cc/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/selenium%E5%AE%9E%E7%8E%B0%E5%8A%A8%E6%80%81%E5%88%87%E6%8D%A2ip.html</loc>
+    <lastmod>2018-07-09T11:46:20.846Z</lastmod>
+    <data>
+        <display>
+        <title>selenium实现动态切换ip</title>
+        <pubTime>2018-07-09T11:39:50.000Z</pubTime>
+        
+        <tag>selenium</tag>
+         
+        <tag>爬虫</tag>
+         
+         
+           
+             
+              <breadCrumb title="selenium" url="http://longofo.cc/categories/selenium/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/sqlaLchemy--ORM%E5%B8%B8%E8%A7%81%E6%93%8D%E4%BD%9C.html</loc>
+    <lastmod>2018-07-09T11:41:47.823Z</lastmod>
+    <data>
+        <display>
+        <title>sqlaLchemy--ORM常见操作</title>
+        <pubTime>2018-06-28T15:30:37.000Z</pubTime>
+        
+        <tag>sqlalchemy -ORM</tag>
+         
+         
+           
+             
+              <breadCrumb title="sqlalchemy" url="http://longofo.cc/categories/sqlalchemy/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/datetime%E4%B8%8Estring%E3%80%81timetuple%E3%80%81timestamp%E4%B9%8B%E9%97%B4%E7%9A%84%E8%BD%AC%E6%8D%A2.html</loc>
+    <lastmod>2018-07-03T06:14:51.729Z</lastmod>
+    <data>
+        <display>
+        <title>datetime与string、timetuple、timestamp之间的转换</title>
+        <pubTime>2018-07-03T06:06:26.000Z</pubTime>
+        
+        <tag>datetime</tag>
+         
+         
+           
+             
+              <breadCrumb title="python" url="http://longofo.cc/categories/python/"/>
+          
+             
+              <breadCrumb title="datetime" url="http://longofo.cc/categories/python/datetime/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/flask%E5%9F%BA%E6%9C%AC%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B.html</loc>
+    <lastmod>2018-06-22T04:42:54.318Z</lastmod>
+    <data>
+        <display>
+        <title>flask基本处理流程</title>
+        <pubTime>2018-06-22T04:18:44.000Z</pubTime>
+        
+        <tag>flask</tag>
+         
+         
+           
+             
+              <breadCrumb title="flask" url="http://longofo.cc/categories/flask/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/python3%E8%B0%83%E8%AF%95(debug)--pdb.html</loc>
+    <lastmod>2018-05-10T08:03:02.249Z</lastmod>
+    <data>
+        <display>
+        <title>python3调试(debug)--pdb</title>
+        <pubTime>2018-05-09T15:52:04.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>debug</tag>
+         
+         
+           
+             
+              <breadCrumb title="debug" url="http://longofo.cc/categories/debug/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/python%20selenium%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.html</loc>
+    <lastmod>2018-04-26T15:25:17.169Z</lastmod>
+    <data>
+        <display>
+        <title>python selenium的基本使用</title>
+        <pubTime>2018-04-02T15:40:13.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+        <tag>selenium</tag>
+         
+         
+           
+             
+              <breadCrumb title="爬虫" url="http://longofo.cc/categories/%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/git%E5%91%BD%E4%BB%A4%E6%B8%85%E5%8D%95.html</loc>
+    <lastmod>2018-04-26T15:15:28.362Z</lastmod>
+    <data>
+        <display>
+        <title>git命令清单</title>
+        <pubTime>2018-04-26T15:12:37.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+             
+              <breadCrumb title="git" url="http://longofo.cc/categories/git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/scrapy%E6%9E%B6%E6%9E%84%E7%AE%80%E4%BB%8B%E4%B8%8E%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C.html</loc>
+    <lastmod>2018-04-02T15:54:55.192Z</lastmod>
+    <data>
+        <display>
+        <title>scrapy架构简介与基本操作</title>
+        <pubTime>2018-04-01T14:21:12.000Z</pubTime>
+        
+        <tag>scrapy</tag>
+         
+         
+           
+             
+              <breadCrumb title="爬虫" url="http://longofo.cc/categories/%E7%88%AC%E8%99%AB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91-ShadowsocksR-vps.html</loc>
+    <lastmod>2018-03-17T08:40:08.446Z</lastmod>
+    <data>
+        <display>
+        <title>科学上网-ShadowsocksR+vps</title>
+        <pubTime>2018-03-17T08:07:33.000Z</pubTime>
+        
+        <tag>科学上网</tag>
+         
+        <tag>ShadowsocksR</tag>
+         
+         
+           
+             
+              <breadCrumb title="科学上网" url="http://longofo.cc/categories/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://longofo.cc/Hexo+github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%8A%98%E8%85%BE%E7%AC%94%E8%AE%B0.html</loc>
+    <lastmod>2018-03-17T08:08:54.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo+github搭建博客折腾笔记</title>
+        <pubTime>2018-03-12T03:25:53.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>搭建博客</tag>
+         
+         
+           
+             
+              <breadCrumb title="博客搭建" url="http://longofo.cc/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+</urlset>

